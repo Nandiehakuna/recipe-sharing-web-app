@@ -1,0 +1,8 @@
+{
+    "files": [
+        "templates/**/*.html"
+    ],
+"ignore": "H023"
+
+
+}
