@@ -21,3 +21,7 @@ def recipe(request):
 
 def about(request):
     return render(request, "about_page.html")
+
+
+def contact_us(request):
+    return render(request, "contact_us_page.html")
