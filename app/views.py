@@ -13,3 +13,7 @@ def login(request):
 
 def signup(request):
     return render(request, "signup_page.html")
+
+
+def recipe(request):
+    return render(request, "recipe_page.html")
