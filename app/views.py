@@ -17,3 +17,7 @@ def signup(request):
 
 def recipe(request):
     return render(request, "recipe_page.html")
+
+
+def about(request):
+    return render(request, "about_page.html")
