@@ -1,2 +1,36 @@
 @import url("./base_styles.css");
 
+.header{
+    background-color: var(--sl-color-neutral-0);
+}
+
+.nav{
+    height: 45px;
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 0 1em;
+}
+
+.auth-section{
+    min-height: 800px;
+    padding: 1em;
+}
+
+.auth-inner-section{
+    min-height: 600px;
+    margin: 0 auto;
+    max-width: 1280px;
+
+}
+
+.auth-footer{
+    text-align: center;
+}
+
+@media (min-width: 50em) {
+    .auth-footer{
+        font-size: 0.7rem;
+    }
+}
