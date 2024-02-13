@@ -1,63 +1,36 @@
 @import url("./base_styles.css");
 
+.header{
+    background-color: var(--sl-color-neutral-0);
+}
 
-section {
+.nav{
+    height: 45px;
+    display: flex;
+    max-width: 1280px;
     margin: 0 auto;
-    max-width: 1000px;
-    padding: 0 20px;
-    justify-content: center;
-    align-items:center;
-    font-weight: 300;
-    font-family: 'poppins' sans-serif;
-    color: var(--black77);
-    line-height: 1.625;
+    align-items: center;
+    padding: 0 1em;
+}
+
+.auth-section{
+    min-height: 800px;
+    padding: 1em;
+}
+
+.auth-inner-section{
+    min-height: 600px;
+    margin: 0 auto;
+    max-width: 1280px;
+
+}
+
+.auth-footer{
     text-align: center;
-    background-color: var(--white);
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    padding: 20px;
-    box-sizing: border-box;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
 }
 
-
-aside{
-    margin: 0 auto;
-    max-width: 1000px;
-    padding: 0 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: var(--sl-color-neutral-eee);
-    font-family: 'Poppins', sans-serif;
-    color: var(--black77);
-    font-weight: 300;
-
-}
-
-
-main{
-    margin: 0 auto;
-    max-width: 1000px;
-    padding: 0 20px;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Poppins', sans-serif;
-    color: var(--black77);
-    font-weight: 300;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: var(--sl-color-neutral-eee);
-    font-family: 'Poppins', sans-serif;
-
+@media (min-width: 50em) {
+    .auth-footer{
+        font-size: 0.7rem;
+    }
 }

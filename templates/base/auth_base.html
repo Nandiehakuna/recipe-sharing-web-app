@@ -14,10 +14,20 @@
     </head>
     <!--djlint:off H020-->
     <body>
-
-        {% block content %}
-        {% endblock content %}
-
+        <header class="header">
+            <nav class="nav">
+                <a href="{% url 'index' %}">< back</a>
+            </nav>
+        </header>
+        <section class="auth-section">
+            <section class="auth-inner-section">
+                {% block content %}
+                {% endblock content %}
+            </section>
+        </section>
+        <footer class="auth-footer">
+            © 2024 recipeHub . All rights reserved.
+        </footer>
         <script src="{% static 'js/jquery-3.7.1.min.js' %} "></script>
     </body>
 </html>
