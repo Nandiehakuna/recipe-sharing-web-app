@@ -10,9 +10,14 @@
         <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700"
               rel="stylesheet" />
         <link rel="stylesheet" href="{% static 'css/base_styles.css' %} ">
+        <link rel="stylesheet" href="{% static 'css/auth_base.css' %} ">
     </head>
     <!--djlint:off H020-->
     <body>
+
+        {% block content %}
+        {% endblock content %}
+
         <script src="{% static 'js/jquery-3.7.1.min.js' %} "></script>
     </body>
 </html>
