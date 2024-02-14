@@ -79,3 +79,56 @@
 .aside-img{
     height: 3em;
 }
+
+.form-container > *{
+    display: block;
+    align-items: center;
+    width: 70%;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    box-shadow: var(--sl-shadow-medium);
+    background-color: var(--sl-color-neutral-eee);
+    border-radius: none;
+    transition: var(--sl-transition);
+    cursor: pointer;
+    color: var(--black77);
+    font-size: 0.9rem;
+    line-height: 1.625;
+    padding: 0.5em;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+
+
+}
+
+.button{
+    background-color: var(--sl-color-gray-700);
+     
+    color: var(--white-color1000);
+}
+
+.header-container{
+    font-size: 2em;
+    font-weight: 600;
+    color: var(--black77);
+    padding-left: 15%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.forgot-password{
+    padding-left: 64%;
+    font-size: smaller;
+    text-decoration: none;
+    
+}
