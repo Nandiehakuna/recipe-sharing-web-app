@@ -12,6 +12,8 @@
         <link rel="stylesheet" href="{% static 'css/base_styles.css' %} ">
     </head>
     <body>
+        {% block hero %}{% endblock hero %}
+        {% block body-content %}{% endblock body-content %}
         <footer class="footer">
             <div class="copyright">
                 <p>© 2024 recipeHub . All rights reserved.</p>
