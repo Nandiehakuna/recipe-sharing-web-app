@@ -339,3 +339,41 @@ body {
   font-weight: 300;
   line-height: 1.625;
 }
+
+
+/* summary section */
+.body-section{
+  min-height: 1000px;
+}
+
+.summary{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1180px;
+  padding: 1em;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 50em){
+  .summary{
+    flex-direction: row;
+  }
+}
+
+.summary-card{
+  padding: 1em;
+  width: 80%;
+  background-color: var(--sl-color-neutral-0);
+  box-shadow: var(--sl-shadow-medium);
+  height: 100px;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 50em){
+  .summary-card{
+    width: 45%;
+  }
+}
