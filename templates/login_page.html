@@ -1,2 +1,14 @@
 {% extends "base/auth_base.html" %}
 {% load static %}
+{% block login %}
+    <div class="form-container">
+        <form action="/login" method="post" class="login-container">
+            <h2>login</h2>
+            <label for="username">username</label>
+            <input type="text" placeholder="username" name="username" required>
+            <label for="password">password</label>
+            <input type="password" placeholder="password" name="password" required>
+            <input type="button" placeholder="submit" id="login-button">
+        </form>
+    </div>
+{% endblock %}

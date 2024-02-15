@@ -9,12 +9,59 @@
         <title>Document</title>
         <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700"
               rel="stylesheet" />
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-RHymL7/FVQNu0p9VSsy6gO7KxBnNvR2fh4tR1aMmyP+RMiy2R54Ww9/qpJG8zXTqz+wRkFWXXVNbxojxHTQ6DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
         <link rel="stylesheet" href="{% static 'css/base_styles.css' %} ">
+        <link rel="stylesheet" href="{% static 'css/footer.css' %} ">
+
     </head>
     <body>
         <footer class="footer">
-            <div class="copyright">
-                <p>© 2024 recipeHub . All rights reserved.</p>
+            <div class="footer-container">
+                <div class="newsletter-container">
+                <input text="email" class="news">
+                <button class="news btn">submit</button>
+                </div>
+                <!-- footer links -->
+                <div class="quicklinks-container">
+                <div class="left-panel">
+
+                <img src="static/logo.svg" alt="company-logo" class="logo">
+                <p>
+                    be creative in every way
+                    lets make food
+
+                </p>
+                </div>
+
+                <ul class="links links-top">
+                <h5>quicklinks</h5>
+                <a href="">link3</a>
+                <a href="">link2</a>
+                
+                <a href="">link1</a>
+                <a href="">link3</a>
+                <a href="">link2</a>
+                <a href="">link1</a>
+
+                </ul>
+                 
+                
+                
+                
+            </div>
+                <!-- socials -->
+                <div class="socials-container">
+                 <a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></i></a>
+              <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+             
+            
+                <!-- copyright -->
+                <div class="copyright-container bottom">© 2024 recipeHub . All rights reserved.</div>
             </div>
         </footer>
         <script src="{% static 'js/jquery-3.7.1.min.js' %} "></script>

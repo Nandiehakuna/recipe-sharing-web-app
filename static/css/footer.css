@@ -1,0 +1,102 @@
+@import url('./base_styles.css');
+
+.footer{
+    background-color:var(--gray-900) ;
+   
+}
+.footer-container{
+    display: flex;
+    min-height: 60vh;
+    flex-direction: column;
+    max-width: 1280px;
+    margin: 0 auto;
+
+
+
+}
+.copyright-container{
+    margin-top: auto;
+    text-align: center;
+}
+
+.newsletter-container{
+    display: flex;
+    
+    padding: 1.5em;
+    border-radius: .5em;
+    
+    
+}
+.news{
+    margin-left:auto ;
+    min-height: 3.125em;
+    
+    border-radius: 0.5em;
+    border: none;
+    
+    
+}
+.btn{
+    margin-left: 1.5em;
+    
+}
+.quicklinks-container{
+    display: flex;
+    border-radius: 1.2em;
+    
+    
+}
+.links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+    grid-gap: 0.5em 1em;
+    margin-left: 20em;
+    
+    
+    
+
+}
+.links > *{
+    
+    padding: 0.5em;
+    list-style-type: none;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    
+    cursor: pointer;
+
+}
+
+   
+
+.links-bottom{
+    margin-top: 2px;
+}
+
+.socials-container{
+    display: grid;
+    
+    padding: 0.5em;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr;
+}
+
+.logo{
+    width: 10em;
+    height: 3em;
+}
+p{
+    display: block;
+    color: white;
+    
+}
+
+
+
+
+
+
+
