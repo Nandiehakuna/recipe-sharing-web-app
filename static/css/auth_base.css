@@ -132,15 +132,3 @@
     text-decoration: none;
     
 }
-
-/* index-page styles */
-
-
-.index-container {
-  min-height: 800px;
-  padding: 15%;
-  display: flex;
-  gap: 2em;
-
-
-}
