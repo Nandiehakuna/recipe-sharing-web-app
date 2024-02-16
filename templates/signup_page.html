@@ -4,27 +4,38 @@
     <section class="auth-container">
         <section class="auth-inner-container">
             <aside class="auth-aside-cover">
-                <img style="height: 5em;position:absolute;top:30%;left:30%;" class="aside-img" src="{% static 'img/img2.svg' %}"/>
+                <img style="height: 5em;
+                            position:absolute;
+                            top:30%;
+                            left:30%"
+                     class="aside-img"
+                     src="{% static 'img/img2.svg' %}" />
             </aside>
             <main class="auth-main-cover">
-
-             <header class="header-container">signup</header>
-            
-            <div>
-            
-            <form class="form-container" method="post" action="{% url 'login' %}">
-              
-            <input type="text" name="username" placeholder="Username" class="username" required>
-
-            <input type="email" placeholder="Email" class="email" required>
-
-            <input type="password" name="password" placeholder="Password" class="password" required>
-
-            <input type="password" name="confirmPassword" placeholder="Confirm Password" class="password" required>
-
-            <button class="button" type="submit">signup</button>
-            </form>
-            </div>
+                <header class="header-container">
+                    signup
+                </header>
+                <div>
+                    <form class="form-container" method="post" action="{% url 'login' %}">
+                        <input type="text"
+                               name="username"
+                               placeholder="Username"
+                               class="username"
+                               required>
+                        <input type="email" placeholder="Email" class="email" required>
+                        <input type="password"
+                               name="password"
+                               placeholder="Password"
+                               class="password"
+                               required>
+                        <input type="password"
+                               name="confirmPassword"
+                               placeholder="Confirm Password"
+                               class="password"
+                               required>
+                        <button class="button" type="submit">signup</button>
+                    </form>
+                </div>
             </main>
         </section>
     </section>

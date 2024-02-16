@@ -9,17 +9,16 @@
         <title>Document</title>
         <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700"
               rel="stylesheet" />
-        <link rel="stylesheet" href="{% static 'css/footer.css' %}">      
+        <link rel="stylesheet" href="{% static 'css/footer.css' %}">
         <link rel="stylesheet" href="{% static 'css/base_styles.css' %} ">
-        
     </head>
     <body>
-        {% block hero %}{% endblock hero %}
-        {% block body-content %}{% endblock body-content %}
+        {% block hero %}
+        {% endblock hero %}
+        {% block body-content %}
+        {% endblock body-content %}
         <footer class="footer-container">
-            <div class="copyright">
-                © 2024 recipeHub . All rights reserved.
-            </div>
+            <div class="copyright">© 2024 recipeHub . All rights reserved.</div>
         </footer>
         <script src="{% static 'js/jquery-3.7.1.min.js' %} "></script>
     </body>
