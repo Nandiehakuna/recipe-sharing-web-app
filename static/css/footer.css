@@ -1,0 +1,24 @@
+@import url(./base_styles.css);
+
+.footer-container{
+    background-color:var(--sl-color-gray-800);
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.copyright{
+    text-align: center;
+    margin-top: auto;
+    width: 100%;
+    
+}
+@media(min-width:50em){
+    .footer-container{
+        flex-direction:row ;
+
+        
+
+    }
+}
